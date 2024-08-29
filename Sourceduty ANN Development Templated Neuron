@@ -33,7 +33,7 @@ Examples:
 
 - Transforms metric values to output using a bias.
 - Example function: output = input + bias.
-- Custom Biased Activation Function: A1(x)=x+0.2
+- Custom Biased Activation Equation: f(x)=∣x+1∣ Custom Biased Activation introduces non-linearity. 
 
 Example Calculations:
 
