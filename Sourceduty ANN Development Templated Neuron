@@ -33,6 +33,7 @@ Examples:
 
 - Transforms metric values to output using a bias.
 - Example function: output = input + bias.
+- Example Custom Activation Function: A1(x)=x+0.2
 
 Example Calculations:
 
