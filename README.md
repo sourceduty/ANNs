@@ -72,7 +72,7 @@ Examples:
 
 - Transforms metric values to output using a bias.
 - Example function: output = input + bias.
-- Custom Biased Activation Function: A1(x)=x+0.2
+- Custom Biased Activation Equation: f(x)=∣x+1∣ Custom Biased Activation introduces non-linearity. 
 
 Example Calculations:
 
@@ -101,7 +101,7 @@ The custom biased activation function is a crucial part of this template, introd
 
 > "*I created a simple and alternative custom neuron template for Sourceduty ANN development.*"
 
-> "*I used a custom biased activation function: A1(x)=x+0.2 instead of the standard activation equations used for ANNs.*"
+> "*I used a custom biased activation function: f(x)=∣x+1∣ instead of the standard activation equations used for ANNs.*"
 
 #
 ### Related Links
