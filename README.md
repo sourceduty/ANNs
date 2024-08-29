@@ -38,8 +38,107 @@ The development of custom neuron models starts with a deep understanding of the 
 Implementing a custom neuron model involves defining new mathematical functions or architectures within the neural network framework. This could include developing new types of activation functions that better mimic biological processes, like synaptic plasticity or more sophisticated models of neuronal firing. Additionally, custom neurons might incorporate mechanisms such as adaptive thresholds, multi-stage processing, or probabilistic decision-making, which can be useful in areas like reinforcement learning or probabilistic reasoning. Once developed, these custom neurons are integrated into the neural network, where they undergo training and evaluation to ensure they improve the network's ability to learn and generalize from the data. This iterative process of refinement and testing is crucial to achieving the desired outcomes from the custom neuron model.
 
 #
+### Sourceduty ANN Development Templated Neuron
+
+Sourceduty ANN Development Templated Neuron outlines a structured approach for building neural networks by breaking down the process into four main components: input metrics, metric values, custom biased activation, and output metrics. The input metrics are the numerical features that feed into each neuron, such as age, height, temperature, or more complex attributes like image color intensity. These inputs are processed using metric values, which are weighted sums that adjust the influence of each input feature. Weights can be positive, negative, or zero, indicating their role in enhancing, reducing, or ignoring an input's effect. The weights are fine-tuned during training to optimize the model's performance.
+
+The custom biased activation function is a crucial part of this template, introducing non-linearity into the neural network. This function takes the weighted sum of inputs plus a bias value to produce an output, allowing the network to learn complex patterns. For instance, a simple linear function like adding a constant bias can transform inputs and alter the direction of outputs, making the relationship between input and output more intricate. Finally, the output metrics provide the final processed values, which are influenced by the preceding input metrics, metric values, and activation functions. This structured approach ensures clarity in how each part of the network operates and interacts, facilitating the design and understanding of neural network behavior.
+
+```
+1. Input Metrics
+
+- Each neuron receives numerical input features, e.g., age, height, weight.
+
+Examples:
+
+Age, Height, Weight, Temperature, Blood pressure, Heart rate, Cholesterol, Glucose, Purchases, Income, Education, Distance, Duration, Rating, Probability.
+
+Image inputs: color intensity, color, brightness.
+
+2. Input Metric Values
+
+- Metric values adjust the weighted sum of inputs.
+
+Weights:
+
+Positive: Increases input influence.
+Negative: Decreases input influence.
+Zero: Ignores input.
+Small: Slightly influences output.
+Large: Strongly influences output.
+Adjustable: Learned during training.
+
+Examples:
+
+0.0: red, 0.1: yellow, 0.2: green, ..., 1.0: brown
+
+3. Custom Biased Activation
+
+- Transforms metric values to output using a bias.
+- Example function: output = input + bias.
+
+Example Calculations:
+
+A1: 0.5 + 0.2 bias = 0.7
+B1: 0.8 + 0.2 bias = 1.0
+C1: 0.6 + 0.2 bias = 0.8
+
+4. Output Metrics
+
+- Calculate outputs based on input and activation.
+
+Example Outputs:
+
+Image color intensity: 0.7
+Image color: 1.0
+Image color brightness: 0.8
+
+# Example Using Template
+
+1. Input Metrics
+
+- Features: Age, Height, Temperature.
+
+Examples:
+
+Age: 30, Height: 170 cm, Temperature: 37.5°C
+
+2. Metric Values
+
+Weights:
+
+Age: 0.3, Height: 0.5, Temperature: 0.2
+
+Examples:
+
+Age (30) * 0.3 = 9.0
+Height (170) * 0.5 = 85.0
+Temperature (37.5) * 0.2 = 7.5
+
+3. Custom Biased Activation
+
+- Function: output = input + 0.1 bias.
+
+Example Calculations:
+
+Age: 9.0 + 0.1 = 9.1
+Height: 85.0 + 0.1 = 85.1
+Temperature: 7.5 + 0.1 = 7.6
+
+4. Output Metrics
+
+Outputs:
+
+Age impact: 9.1
+Height impact: 85.1
+Temperature impact: 7.6
+```
+
+#
 
 > Alex: "*Large ANNs are powerful systems of interconnected artificial neurons used to make accurate predictions or decisions.*"
+
+"*I created a simple and alternative custom neuron template for Sourceduty ANN development.*"
 
 #
 ### Related Links
