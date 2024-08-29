@@ -51,6 +51,8 @@ Implementing a custom neuron model involves defining new mathematical functions 
 [Deep Learning Simulator](https://github.com/sourceduty/Deep_Learning_Simulator)
 <br>
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
+<br>
+[Science](https://github.com/sourceduty/Science)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
