@@ -40,6 +40,10 @@ Implementing a custom neuron model involves defining new mathematical functions 
 #
 ### Sourceduty ANN Development Templated Neuron
 
+Sourceduty ANN Development Templated Neuron outlines a structured approach for building neural networks by breaking down the process into four main components: input metrics, metric values, custom biased activation, and output metrics. The input metrics are the numerical features that feed into each neuron, such as age, height, temperature, or more complex attributes like image color intensity. These inputs are processed using metric values, which are weighted sums that adjust the influence of each input feature. Values can be positive, negative, or zero, indicating their role in enhancing, reducing, or ignoring an input's effect. The valuess are fine-tuned during training to optimize the model's performance.
+
+The custom biased activation function is a crucial part of this template, introducing non-linearity into the neural network. This function takes the weighted sum of inputs plus a bias value to produce an output, allowing the network to learn complex patterns. For instance, a simple linear function like adding a constant bias can transform inputs and alter the direction of outputs, making the relationship between input and output more intricate. Finally, the output metrics provide the final processed values, which are influenced by the preceding input metrics, metric values, and activation functions. This structured approach ensures clarity in how each part of the network operates and interacts, facilitating the design and understanding of neural network behavior.
+
 ```
 1. Input Metrics
 
@@ -94,12 +98,6 @@ Image color: 1.0
 Image color brightness: 0.8
 ```
 
-Sourceduty ANN Development Templated Neuron outlines a structured approach for building neural networks by breaking down the process into four main components: input metrics, metric values, custom biased activation, and output metrics. The input metrics are the numerical features that feed into each neuron, such as age, height, temperature, or more complex attributes like image color intensity. These inputs are processed using metric values, which are weighted sums that adjust the influence of each input feature. Values can be positive, negative, or zero, indicating their role in enhancing, reducing, or ignoring an input's effect. The valuess are fine-tuned during training to optimize the model's performance.
-
-The custom biased activation function is a crucial part of this template, introducing non-linearity into the neural network. This function takes the weighted sum of inputs plus a bias value to produce an output, allowing the network to learn complex patterns. For instance, a simple linear function like adding a constant bias can transform inputs and alter the direction of outputs, making the relationship between input and output more intricate. Finally, the output metrics provide the final processed values, which are influenced by the preceding input metrics, metric values, and activation functions. This structured approach ensures clarity in how each part of the network operates and interacts, facilitating the design and understanding of neural network behavior.
-
-.............................................................................................................
-
 This custom Artificial Neural Network (ANN) neuron model introduces a distinctive method of processing numerical inputs by using a combination of weighted sums and a unique biased activation function. The neuron receives various input metrics, such as age, height, weight, and other numerical or categorical features, which are then modulated by corresponding weights. These weights can increase, decrease, or neutralize the influence of each input on the neuron’s output, with their values being adjustable and learned during training. This flexibility allows the model to optimize its processing of diverse inputs, making it adaptable to various tasks.
 
 The core innovation lies in the custom biased activation function defined as \( f(x) = |x + 1| \). This function introduces non-linearity into the neuron’s operation by shifting and potentially inverting the input values based on whether they are above or below -1. This non-linear transformation is crucial for capturing complex patterns within the data, enabling the model to handle more sophisticated decision-making tasks. The resulting outputs, such as image color intensity or brightness, reflect the processed information after applying the custom activation, which could serve as inputs for subsequent layers or as final predictions depending on the network architecture. This approach offers a novel and flexible means of feature transformation within neural networks, especially in scenarios where traditional activation functions might fall short.
@@ -112,7 +110,7 @@ The core innovation lies in the custom biased activation function defined as \( 
 
 > "*I used a custom biased activation function: f(x)=∣x+1∣ instead of the standard activation equations used for ANNs.*"
 
-> "*Examine this custom ANN neuron model.*"
+> "*Examine this custom ANN neuron model using ChatGPT.*"
 
 #
 ### Related Links
