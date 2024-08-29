@@ -73,7 +73,9 @@ Examples:
 - Transforms metric values to output using a bias.
 - Example function: output = input + bias.
 - Custom Biased Activation Equation: f(x)=∣x+1∣
-- Custom Biased Activation introduces non-linearity. 
+- Custom Biased Activation introduces non-linearity.
+- For x ≥ -1, the function is f(x) = x + 1, which is a line with a slope of 1.
+- For x < -1, the function is f(x) = -x - 1, which is a line with a slope of -1.
 
 Example Calculations:
 
