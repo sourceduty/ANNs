@@ -16,7 +16,7 @@ Image inputs: color intensity, color, brightness.
 
 - Metric values adjust the weighted sum of inputs.
 
-Weights:
+Values:
 
 Positive: Increases input influence.
 Negative: Decreases input influence.
