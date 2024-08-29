@@ -138,7 +138,7 @@ Temperature impact: 7.6
 
 > Alex: "*Large ANNs are powerful systems of interconnected artificial neurons used to make accurate predictions or decisions.*"
 
-"*I created a simple and alternative custom neuron template for Sourceduty ANN development.*"
+> "*I created a simple and alternative custom neuron template for Sourceduty ANN development.*"
 
 #
 ### Related Links
