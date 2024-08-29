@@ -92,46 +92,6 @@ Example Outputs:
 Image color intensity: 0.7
 Image color: 1.0
 Image color brightness: 0.8
-
-# Example Using Template
-
-1. Input Metrics
-
-- Features: Age, Height, Temperature.
-
-Examples:
-
-Age: 30, Height: 170 cm, Temperature: 37.5°C
-
-2. Metric Values
-
-Weights:
-
-Age: 0.3, Height: 0.5, Temperature: 0.2
-
-Examples:
-
-Age (30) * 0.3 = 9.0
-Height (170) * 0.5 = 85.0
-Temperature (37.5) * 0.2 = 7.5
-
-3. Custom Biased Activation
-
-- Function: output = input + 0.1 bias.
-
-Example Calculations:
-
-Age: 9.0 + 0.1 = 9.1
-Height: 85.0 + 0.1 = 85.1
-Temperature: 7.5 + 0.1 = 7.6
-
-4. Output Metrics
-
-Outputs:
-
-Age impact: 9.1
-Height impact: 85.1
-Temperature impact: 7.6
 ```
 
 #
