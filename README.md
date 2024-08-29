@@ -101,6 +101,8 @@ The custom biased activation function is a crucial part of this template, introd
 
 > "*I created a simple and alternative custom neuron template for Sourceduty ANN development.*"
 
+> "*I used a custom biased activation function: A1(x)=x+0.2 instead of the standard activation equations used for ANNs.*"
+
 #
 ### Related Links
 
