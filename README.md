@@ -43,7 +43,7 @@ Implementing a custom neuron model involves defining new mathematical functions 
 [Neuroquantum Simulator](https://chatgpt.com/g/g-srlpn9o6e-neuroquantum-simulator)
 <br>
 [Neuromorphic Simulator](https://github.com/sourceduty/Neuromorphic_Simulator)
-<b>
+<br>
 [Neuroscience](https://github.com/sourceduty/Neuroscience)
 <br>
 [Quantum Neurogenetics](https://github.com/sourceduty/Quantum_Neurogenetics)
