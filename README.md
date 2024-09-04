@@ -138,6 +138,8 @@ The core innovation lies in the custom biased activation function defined as \( 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
 <br>
 [Science](https://github.com/sourceduty/Science)
+<br>
+[Network Circuit Theory](https://github.com/sourceduty/Network_Circuit_Theory)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
