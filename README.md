@@ -144,6 +144,8 @@ Python, with its extensive ecosystem of libraries, simplifies the process of dev
 
 > "*Developing ANNs is complex, but leveraging Python to implement ANN theory concepts makes creating a custom ANN more manageable.*"
 
+> "*Automating a corpus is easy, utilizing it with ANN or AI is complicated, and I want a more streamlined method.*"
+
 #
 ### Related Links
 
