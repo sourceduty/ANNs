@@ -122,7 +122,7 @@ Bayesian methods, such as those available in the PyMC3 and TensorFlow Probabilit
 Developing a custom ANN in Python involves defining the network architecture, implementing the forward and backward propagation steps, and optimizing the network through training. While libraries like TensorFlow and PyTorch simplify this process, a custom implementation can offer deeper insights and flexibility. To create a basic ANN from scratch, one would begin by initializing the weights and biases for each neuron. Then, the forward propagation step is implemented, where inputs are passed through each layer, and the activation function is applied. The backward propagation step involves calculating the gradients of the loss function with respect to the weights and biases and updating them accordingly. This can be done using Python’s numerical libraries like NumPy for matrix operations, providing control over the training process and the ability to experiment with different architectures and learning algorithms.
 
 #
-###
+### Developing ANNs
 
 ![ANNs](https://github.com/user-attachments/assets/ee024e15-32db-4777-91bc-fd425bbd1982)
 
